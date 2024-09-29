@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f4f4f469;
+    color: #333333fd;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.principal {
+    background-color: #20ace4;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(3, 3, 3, 0.1);
+}
+
+.container__titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container__imagem {
+
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.container__botao {
+    display: inline-block;
+    background-color: #007BFF;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.container__botao:hover {
+    background-color: #000000;
+}
+
+.botao_secundario {
+    background-color: #252424;
+}
+
+.botao_secundario:hover {
+    background-color: #00000000;
+}
+
+.container__aviso {
+    font-size: 14px;
+    color: #666666;
+}
+
+.secundario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.secundario__imagem {
+    max-width: 50%;
+    height: auto;
+}
+
+.container__descricao {
+    max-width: 45%;
+}
+
+.descricao__titulo {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.descricao__texto {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.dispositivos {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.dispositivos__titulo {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.dispositivos__lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    justify-content: center;
+}
+
+.lista__item {
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.rodape {
+    background-color: hsla(0, 0%, 100%, 0);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.rodape__logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.rodape__lista {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.lista__link {
+    margin: 0 10px;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.lista__link a:hover {
+    text-decoration: underline;
+}
+
+.rodape__texto {
+    font-size: 12px;
+    color: #666;
+}
